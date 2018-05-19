@@ -21,6 +21,6 @@ git config user.password "${g_password}"
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/aszx-fyh/aszx-fyh.github.io.git master:master
+git push -f "https://github.com/${g_name}/${g_name}.github.io.git" master:master
  
 cd -
