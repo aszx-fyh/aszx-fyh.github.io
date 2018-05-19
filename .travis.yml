@@ -1,3 +1,7 @@
 language: JavaScript
 install: npm i -D
 script: sh ./bin/deploy.sh
+
+branches:
+  only:
+    - blog
