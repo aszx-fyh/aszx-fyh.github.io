@@ -14,11 +14,12 @@ cd docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-git config github.token ${blog_token}
+git config user.name 'aszx-fyh'
+git config user.email 'aszx365289461@github.com'
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:aszx-fyh/aszx-fyh.github.io.git master:master
+git push -f https://github.com/aszx-fyh/aszx-fyh.github.io.git master:master
  
 cd -

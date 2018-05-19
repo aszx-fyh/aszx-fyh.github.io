@@ -5,3 +5,6 @@ script: sh ./bin/deploy.sh
 branches:
   only:
     - blog
+env:
+  global:
+      secure: $blog_token
