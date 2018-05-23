@@ -3,13 +3,7 @@ module.exports={
     description:'my blog',
     themeConfig:{
         nav:[
-            {
-                text:'前端',
-                items:[
-                    {text:'css',link:'/frontend/css/'},
-                    {text:'javascript',link:'/frontend/js/'},
-                ]
-            }
+                {text:'前端',link:'/frontend/'},
         ]
     }
 }
